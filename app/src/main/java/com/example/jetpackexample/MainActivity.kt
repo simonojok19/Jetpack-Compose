@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     @Composable
     fun myApp() {
-        var count = +state { 0 }
+        val count = +state { 0 }
         MaterialTheme {
             FlexColumn {
                 inflexible {
